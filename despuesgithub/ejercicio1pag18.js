@@ -14,11 +14,11 @@ const users = [
 
 for (i=0; i < users.length; i++)
 
-if (user[i].years < 18){
+if (users[i].years < 18){
     console.log ("Usuarios menores de edad");
-    console.log (user[i]);
+    console.log (users[i].name);
 } 
 else {
     console.log ("Usuarios mayores de edad");
-    console.log (user[i]);
+    console.log (users[i].name);
 }
