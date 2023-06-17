@@ -16,9 +16,10 @@ function averageWord(param) {
 
         if (number = ""){
         valorString = number.length;
-        sumaString += number;
+        sumaString += number;}
 
-        else (total += number);
+        else {
+            (total += number);
         }
     }
     console.log (sumaString);
