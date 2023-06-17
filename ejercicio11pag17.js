@@ -4,11 +4,12 @@ function average(param) {
     let total = 0;
     let entradas = 0;
     let media;
+
     for (let sum of param){
         total += sum;
-        entradas = param.length -1;
+    }
+        entradas = param.length;
         media = total / entradas;
         console.log (media);
     }
-}
 average (numbers);
