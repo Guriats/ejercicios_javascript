@@ -4,10 +4,26 @@
 const numbers = [1, 2, 3, 5, 45, 37, 58];
 function sumAll(param) {
     let sumaTotal = 0;
-    for ( let total of param)
-    sumaTotal = total + total;
+    for ( let sum of param){
+    sumaTotal += sum;
     console.log (sumaTotal);
+    }
 }
-sumaTotal (numbers);
+sumAll (numbers);
+
+
+//
+
+/*const numbers = [1, 2, 3, 5, 45, 37, 58];
+
+function sumNumbers(param) {
+  let sum = 0;
+  for (const number of param) {
+    sum += number;
+  }
+  return sum;
+}
+
+console.log(sumNumbers(numbers)); */ // Output: 151
 
 
