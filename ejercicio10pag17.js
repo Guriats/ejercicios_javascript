@@ -6,6 +6,7 @@ function sumAll(param) {
     let sumaTotal = 0;
     for ( let sum of param){
     sumaTotal += sum;
+    break;
     console.log (sumaTotal);
     }
 }
