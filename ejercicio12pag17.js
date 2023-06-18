@@ -15,17 +15,31 @@ function averageWord(param) {
     for (let number of param){
 
         if (number = ""){
-        valorString = number.length;
+        valorString = number.length("");
         sumaString += number;
-        console.log (sumaString);
     }
 
         else {
             (total += number);
         }
     }
+    /* const numbers = [12, 21, 38, 5, 45, 37, 6];
+function average(param) {
+    let total = 0;
+    let entradas = 0;
+    let media;
+
+    for (let sum of param){
+        total += sum;
+    }
+        entradas = param.length;
+        media = total / entradas;
+        console.log (media);
+    }
+average (numbers);*/ */
     console.log (sumaString);
     console.log (sum);
 }
 
 averageWord (mixedElements);
+
