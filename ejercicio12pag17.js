@@ -4,11 +4,11 @@ contrario cuente la longitud del string y lo sume.
 Puedes usar este array para probar tu función:*/
 const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 function averageWord(param) {
-
+    // variables para el cálculo matemático
     let total = 0;
     let entradasNumericas = 0;
     let sum;
-
+    // variables para el cálculo de strings
     let valorString = 0;
     let sumaString;
 
@@ -16,7 +16,9 @@ function averageWord(param) {
 
         if (number = ""){
         valorString = number.length;
-        sumaString += number;}
+        sumaString += number;
+        console.log (sumaString);
+    }
 
         else {
             (total += number);
