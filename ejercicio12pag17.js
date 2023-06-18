@@ -36,7 +36,7 @@ function average(param) {
         media = total / entradas;
         console.log (media);
     }
-average (numbers);*/ */
+average (numbers); */
     console.log (sumaString);
     console.log (sum);
 }
