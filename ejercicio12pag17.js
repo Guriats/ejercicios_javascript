@@ -15,12 +15,13 @@ function averageWord(param) {
     for (let number of param){
 
         if (number = ""){
-        valorString = number.length("");
+        valorString = number.length;
         sumaString += number;
     }
 
         else {
             (total += number);
+            entradasNumericas = number.length;
         }
     }
     /* const numbers = [12, 21, 38, 5, 45, 37, 6];
