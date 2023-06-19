@@ -14,7 +14,7 @@ const duplicates = [
     'pasta',
     'soda'
   ];
-  
+  // utilizamos el método filter() para crear un nuevo array que contenga solo los valores únicos del array original.
   /*argumento value: elemento actual que se esta procesando, 
   argumento index: representa el índice del elemento actual en el array, 
   argumento self representa el array que se está procesando.
