@@ -23,6 +23,7 @@ const duplicates = [
   Si lo es, entonces el elemento es único y se incluye en el nuevo array que se está creando.*/
   // el argumento de la función removeDuplicates se refiere al array
   // return devuelve el resultado
+  // => este símbolo es una nueva función
   function removeDuplicates(param) {
     return param.filter((value, index, self) => {
       return self.indexOf(value) === index;
