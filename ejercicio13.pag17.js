@@ -22,7 +22,7 @@ const duplicates = [
   índice del elemento actual en el array es igual al primer índice del elemento en el array. 
   Si lo es, entonces el elemento es único y se incluye en el nuevo array que se está creando.*/
   
-  function removeDuplicates(array) {
+  function removeDuplicates(param) {
     return array.filter((value, index, self) => {
       return self.indexOf(value) === index;
     });
