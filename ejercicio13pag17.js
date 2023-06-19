@@ -21,7 +21,8 @@ const duplicates = [
   Dentro de la función de devolución de llamada, usamos el método `indexOf()` para verificar si el 
   índice del elemento actual en el array es igual al primer índice del elemento en el array. 
   Si lo es, entonces el elemento es único y se incluye en el nuevo array que se está creando.*/
-  
+  // el argumento de la función removeDuplicates se refiere al array
+  // return devuelve el resultado
   function removeDuplicates(param) {
     return param.filter((value, index, self) => {
       return self.indexOf(value) === index;
