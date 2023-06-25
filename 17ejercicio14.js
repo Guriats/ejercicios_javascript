@@ -18,14 +18,16 @@ const nameFinder = [
     function finderName(param) {
         let names = ["Bruce"];
         for (let nombre of param){
-            if (names.includes (nombre))
-            console.log ("el nombre es true y la posición es " + nombre);
+            if (names.includes (nombre)){
+            console.log ("el nombre es true y la posición es ");
         }
-       // else{
-        //    console.log ("false");
+        else {
+          console.log("false");
         }
+     }
+    }
 
-   // }
+    finderName (nameFinder);
 
 
 
